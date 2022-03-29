@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--navbar-->
+    <div class="navabr">
+        <div class="topsection">
+            <div class="subsection">
+                <p><i class="fa-brands fa-facebook"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+                <p><i class="fa-brands fa-twitter"></i></p>
+                <p><i class="fa-brands fa-youtube"></i></p>
+            </div>
+            <div class="subsection">
+                <p><i class="fa-solid fa-globe"> <span>eng</span></i></p>
+                <p><i class="fa-solid fa-envelope"></i></p>
+                <p><i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="midsection">
+            <div class="logo">
+               <a href="home.html">The Himalayan Times</a>  
+                </div>
+            <div class="livenews">
+                <marquee width="95%" scrollamount="10">
+                    Products allow you to create something once and earn revenue while sleeping, sightseeing, or getting a suntan on a beach! 
+                </marquee>
+            </div>
+        </div>
+        <p id="hamburger" onclick="hamburger()">
+            <i class="fa-solid fa-bars"></i>
+        </p>
+        <div id="bottomsection">
+            <p>Home</p>
+            <p>travel</p>
+            <p>lifestyle</p>
+            <p>technology</p>
+            <p>fashion</p>
+            <p>sport</p>
+            <p>food</p>
+            <div id="close" onclick="closeHamburger()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- news -->
+    <div class="newsconatiner">
+        <div class="actualnews">
+            <h4>This Slab Pie Is Fall in the Palm of Your Hand </h4>
+            <p class="colortext">Victoria Anderson - Read Time: 2 mins - Published: 22 October 2021
+            </p>
+            <img src="image1.jpeg" alt="">
+            <p class="newstext">
+                Sure, there have always been tourists behaving badly ever since the first tourist existed. But, in an age where travel has become so easy and ubiquitous for so many for the first time, those problems have amplified a thousandfold. Destinations didn’t have the necessary infrastructure to handle the flood of tourists cheap travel brought.
+
+From flouting rules and refusing to wear a mask to hosting parties, coughing on others, and just generally being selfish, the pandemic has shown us that the world is filled with more assholes than we thought. But, despite all of that, when it comes to the future of travel, I think the pandemic is going to make it better.
+
+
+            </p>
+            <button>Next ></button>
+            <div class="rowshare">
+                <div><i class="fa-solid fa-share-nodes"></i></div>
+                <div>
+                    <div class="row1">
+                        <p><i class="fa-brands fa-facebook"></i></p>
+                    <p><i class="fa-brands fa-twitter"></i></p>
+                    </div>
+                </div>
+            </div>
+                <div class="writerbox">
+                    <div class="writerimage"><img src="image1.jpeg" alt="profilepicofwriter" srcset=""></div>
+                    <div class="writername">
+                        <p class="writer">Manish Parajuli</p>
+                        <div class="row3">
+                            <p><i class="fa-brands fa-facebook"></i></p>
+                        <p><i class="fa-brands fa-instagram"></i></p>
+                        </div>
+                        <p class="writerintroduction">Hello! I am Victoria Rawson. I am city skyline and landscape photographer. I fell in love with photography when I bought my first digital camera Canon 5d Mark II back in 2011.</p>
+                    </div>
+                </div>
+        </div>
+        <div class="mostviewed">
+            <h2>most viewed:</h2>
+            <div class="mostviewdedcard">
+                <div class="row">
+                   <div class="image">
+                    <img src="image1.jpeg" alt="">
+                   </div>
+                <div class="text">
+                    <p>5 Things We Know About Flying This Summer</p>
+                <p>22 October 2021 - by Victoria Anderson</p>
+                </div>
+                </div>
+            </div>
+            <div class="mostviewdedcard">
+                <div class="row">
+                   <div class="image">
+                    <img src="image1.jpeg" alt="">
+                   </div>
+                <div class="text">
+                    <p>5 Things We Know About Flying This Summer</p>
+                <p>22 October 2021 - by Victoria Anderson</p>
+                </div>
+                </div>
+            </div>
+            <div class="mostviewdedcard">
+                <div class="row">
+                   <div class="image">
+                    <img src="image1.jpeg" alt="">
+                   </div>
+                <div class="text">
+                    <p>5 Things We Know About Flying This Summer</p>
+                <p>22 October 2021 - by Victoria Anderson</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--ad banner-->
+     <div class="banner">
+        Ad Banner: 720*90
+    </div>
+
+    <!--more article -->
+    <h3>more article...</h3>
+    <div class="morearticlecontainer">
+        <div class="morenewsbox">
+            <p class="morenewstitle">manish parajuli won golden gloves...</p>
+        </div>
+        <div class="morenewsbox">
+            <p class="morenewstitle">manish parajuli won golden gloves...</p>
+        </div>
+        <div class="morenewsbox">
+            <p class="morenewstitle">manish parajuli won golden gloves...</p>
+        </div>
+        <div class="morenewsbox">
+            <p class="morenewstitle">more news <span><i class="fa-solid fa-caret-down"></i></span></p>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="left">
+           <div class="footerlogo">The Himalyan times</div>
+           <div class="suscribe">
+               <p>We believe that great journalism has the power to make each reader’s<br> life richer and more fulfilling, and all of society stronger and more just.</p>
+            <input type="text" placeholder="email">
+            <button>Suscribe</button>
+            </div>
+        </div>
+        <div class="mid">
+                <p>home</p>
+                <p>travel</p>
+                <p>lifestyle</p>
+                <p>technology</p>
+                <p>fashion</p>
+                <p>sport</p>
+                <p>food</p>
+        </div>
+        <div class="right">
+            <p>about us</p>
+            <p>advertising</p>
+            <p>careers</p>
+            <p>terms</p>
+            <p>contact</p>
+        </div>
+    </div>
+    <div class="copyright">
+        all right reseve to sevn technology.
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+    <script src="script.js"></script>
+</body>
+</html>
