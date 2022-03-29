@@ -460,3 +460,25 @@ button{
         width: 100%;
     }
 }
+
+/* to top button css*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    opacity: 0.9;
+  }
+  
+  #myBtn:hover {
+   opacity: 1;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
