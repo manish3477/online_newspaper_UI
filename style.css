@@ -90,7 +90,6 @@ button{
 #hamburger{
     font-size: 18px;
     display: none;
-    cursor: pointer;
 }
 .fa-bars{
     font-size: 24px;
